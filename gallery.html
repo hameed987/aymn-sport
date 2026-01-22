@@ -1,0 +1,134 @@
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>موديلات - أيمن سبورت للخياطة والتعديلات</title>
+<link rel="stylesheet" href="style.css">
+<style> 
+   
+   
+   .message-box a {
+      background-color: #b5651d;
+      color: white;
+     text-decoration: none;
+     padding: 10px 20px;
+     border-radius: 8px;
+   }
+  
+.circle-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  counter-reset: item;
+  list-style: none;
+  padding: left;
+ direction: rtl;
+}
+
+.circle-list li {
+  position: relative;
+  padding-left: 30px;
+}
+    
+
+.circle-list li::before {
+  content: counter(item);
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+   }
+</style>
+</head>
+<body ><center>
+    <header>   
+      <h1>الموديلات</h1> 
+      <nav> 
+       <a href="index.html">الرئيسية</a>
+       <a href="gallery.html">موديلات</a>
+       <a href="custom.html">تفصيل حسب الطلب</a>
+       <a href="contact.html">تواصل معنا</a>
+      </nav>
+    </header>
+  <main>
+  <form action="success"  method="post"> 
+  <ol  type="1" class="circle-list">
+  <li>
+<label for=1>   <img src="images/1.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=1 >
+<li>
+  <label for=2>  <img src="images/2.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=2 >
+<li>
+  <label for=3>  <img src="images/3.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=3 >
+<li>
+  <label for=4>  <img src="images/4.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=4 >
+<li>
+  <label for=5>  <img src="images/5.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=5 >
+<li>
+   <label for=6> <img src="images/6.jpg"width="250"  ></label> 
+<input type="checkbox" name=checbox id=6 ><br>
+<li>
+  <label for=7>  <img src="images/7.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=7 >
+<li>
+     <label for=8><img src="images/8.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=8 >
+<li>
+ <label for=9>   <img src="images/9.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=9 >
+<li>
+  <label for=10>  <img src="images/10.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=10 >
+<li>
+  <label for=11>  <img src="images/11.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=11 >
+<li>
+ <label for=12>   <img src="images/12.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=12 >
+<li>
+  <label for=13>  <img src="images/13.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=13 >
+<li>
+   <label for=14> <img src="images/14.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=14 >
+<li>
+   <label for=15> <img src="images/15.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=15>
+<li>
+   <label for=16> <img src="images/16.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=16 >
+<li>
+  <label for=17>  <img src="images/17.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=17>
+<li>
+ <label for=18>   <img src="images/18.jpg" width="250" ></label>
+<input type="checkbox" name=checbox id=18>
+<li>
+   <label for=19> <img src="images/19.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=19>
+<li>
+  <label for=20>  <img src="images/20.jpg"width="250"  ></label>
+<input type="checkbox" name=checbox id=20><br>
+<div class="message-box">
+<center>
+<a href="success.html">ارسال الطلب</a></center></form></div>
+  </main>
+ 
+   <footer>
+      <p>محل أيمن سبورت للخياطة والتعديلات - جميع الحقوق محفوظة   2025 </p>
+    </footer></center>
+  </body>
+ </html>
